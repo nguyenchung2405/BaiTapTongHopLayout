@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section class="cinema">
+            <div class="col-12 cinema__bg__img maxWidth mx-auto">
+                <div class="cinema__time__table">
+                    <!-- Nav pills -->
+                    <ul class="nav flex-column" role="tablist">
+                        <li id="item-1" class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" href="#BHD">
+                                <img src="./image/cinema/BHD.png" alt="BHD">
+                            </a>
+                        </li>
+                        <li id="item-2" class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#CNS">
+                                <img src="./image/cinema/star.png" alt="star">
+                            </a>
+                        </li>
+                        <li id="item-3" class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#DDC">
+                                <img src="./image/cinema/DDC.png" alt="DDC">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="BHD" class="container tab-pane active">
+                            <div class="cinema__information">
+                                <img src="./image/cinema/BHD/bhd-star-bitexco-16105952137769.png" alt="rạp BHD Bitexco">
+                                <div class="cinema__info">
+                                    <span style="color: black;">
+                                        <span class="tenRap" id="inline">BHD Star</span> - Bitexco
+                                    </span>
+                                    <span>L3-Bitexco Icon 68, 2 Hải Triều, Q.1</span>
+                                    <span>
+                                        <a href="#">[Chi tiết]</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="cinema__information opa-05">
+                                <img src="./image/cinema/BHD/bhd-star-vincom-thao-dien-16105955634183.png"
+                                    alt="rạp BHD Thảo Điền">
+                                <div class="cinema__info">
+                                    <span>
+                                        <span class="tenRap" id="inline">BHD Star</span> - Bitexco
+                                    </span>
+                                    <span>L3-Bitexco Icon 68, 2 Hải Triều, Q.1</span>
+                                    <span>
+                                        <a href="#">[Chi tiết]</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="cinema__information opa-05">
+                                <img src="./image/cinema/BHD/bhd-star-vincom-3-2-16105957596860.png"
+                                    alt="rạp BHD 3 tháng 2">
+                                <div class="cinema__info">
+                                    <span>
+                                        <span class="tenRap" id="inline">BHD Star</span> - Bitexco
+                                    </span>
+                                    <span>L5-Vincom 3/2, 3C Đường 3/2, Q.10</span>
+                                    <span>
+                                        <a href="#">[Chi tiết]</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="CNS" class="container tab-pane fade">
+                            <div class="cinema__information">
+                                <img src="./image/cinema/CNS/cinestar-hai-ba-trung-15383833704033.jpg"
+                                    alt="rạp CNS 2 Bà trưng">
+                                <div class="cinema__info">
+                                    <span>
+                                        <span class="tenRap" id="inline">BHD Star</span> - Bitexco
+                                    </span>
+                                    <span>135 Hai Bà Trưng, Bến Nghé, Q.1</span>
+                                    <span>
+                                        <a href="#">[Chi tiết]</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="cinema__information opa-05">
+                                <img src="./image/cinema/CNS/cinestar-quoc-thanh-15379636956745.jpg"
+                                    alt="rạp CNS Quốc Thanh">
+                                <div class="cinema__info">
+                                    <span>
+                                        <span class="tenRap" id="inline">BHD Star</span> - Bitexco
+                                    </span>
+                                    <span>271 Nguyễn Trãi, Q.1</span>
+                                    <span>
+                                        <a href="#">[Chi tiết]</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="DDC" class="container tab-pane fade">
+                            <div class="cinema__information">
+                                <img src="./image/cinema/DDC/ddc-dong-da-15379624326697.jpg" alt="rạp BHD Thảo Điền">
+                                <div class="cinema__info">
+                                    <span>
+                                        <span class="tenRap" id="inline">BHD Star</span> - Bitexco
+                                    </span>
+                                    <span>890 Trần Hưng Đạo, Q.5</span>
+                                    <span>
+                                        <a href="#">[Chi tiết]</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- lịch chiếu -->
+                    <div class="time">
+                        <p>Không có lịch chiếu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="thongTin">
+            <div class="col-12 thongTin__bg__img maxWidth mx-auto">
+                <!-- Nav pills -->
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#News">Điện ảnh 24h</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#Review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#KhuyenMai">Khuyến mãi</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane container active" id="News">
+                        <div class="row News__tren">
+                            <div class="col-6">
+                                <img src="./image/tin_tuc/dienanh24h/khai-truong-rap-xin-gia-ngon-chuan-xi-tai-sai-gon-16111317082644.jpg"
+                                    alt="khai trương rạp">
+                                <a href="#">Khai trương rạp xịn giá ngon, chuẩn xì-tai Sài Gòn</a>
+                                <p>
+                                    Cư dân nơi khác đang sắp “gato nổ mắt” với dân Sài Thành khi sắp tới đây thành phố
+                                    HCM sẽ chào đón một rạp chiếu phim mang phong cách Artistic Urban Lifestyle đầu tiên
+                                    tại Việt Nam!
+                                </p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img src="./image/tin_tuc/dienanh24h/boc-tem-to-hop-giai-tri-moi-toanh-cua-gioi-ha-thanh-16056938333773.jpg"
+                                    alt="khai trương rạp">
+                                <a href="#">“Bóc tem” tổ hợp giải trí mới toanh của giới Hà Thành</a>
+                                <p>
+                                    Vào đúng ngày Nhà giáo Việt Nam 20/11, khu vui chơi sống ảo độc-lạ-chill nhất từ
+                                    trước đến giờ sẽ chính thức khai trương tại 360 Giải Phóng!
+                                </p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row News__duoi">
+                            <div class="col-4">
+                                <img src="./image/tin_tuc/dienanh24h/tiec-trang-mau-chinh-thuc-can-moc-100-ty-chi-sau-2-tuan-cong-chieu-16043752411629.png"
+                                    alt="review">
+                                <a href="#">Tiệc Trăng Máu chính thức cán mốc 100 tỷ chỉ sau 2 tuần công chiếu</a>
+                                <p>Sau 2 tuần ra mắt, Tiệc Trăng Máu chính thức gia nhập câu lạc bộ phim điện ảnh đạt
+                                    100 tỷ đồng doanh thu phòng vé. Dàn ngôi sao “bạc tỷ” của</p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img src="./image/tin_tuc/dienanh24h/ngo-thanh-van-chinh-thuc-khoi-dong-cuoc-thi-thiet-ke-trang-phuc-cho-sieu-anh-hung-dau-tien-cua-viet-nam-vinaman-16041597587981.jpg"
+                                    alt="review">
+                                <a href="#">NGÔ THANH VÂN CHÍNH THỨC KHỞI ĐỘNG CUỘC THI THIẾT KẾ TRANG PHỤC CHO SIÊU ANH
+                                    HÙNG ĐẦU TIÊN CỦA VIỆT NAM – VINAMAN</a>
+                                <p>Chiều tối ngày 30-10-2020, Ngô Thanh Vân và Studio68 đã chính thức phát động cuộc thi
+                                    thiết kế trang phục cho siêu anh hùng VINAMAN với tổng giá trị giải thưởng lên đến
+                                    60 triệu đồng.</p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="" alt="">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            [ANTEBELLUM] - 4 lý do không thể bỏ lỡ siêu phẩm kinh dị Antebellum: Bẫy
+                                            Thực
+                                            Tại Kinh Hoàng
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="" alt="">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            Ác Quỷ Đối Đầu soán ngôi Peninsula, trở thành phim đứng đầu doanh thu tại
+                                            Hàn Quốc mùa dịch
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/dienanh24h/da-n-my-nhan-trong-the-gio-i-die-n-a-nh-cu-a-qua-i-kie-t-christopher-nolan-15970503793246.png"
+                                            alt="">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            Dàn mỹ nhân trong thế giới điện ảnh của quái kiệt Christopher Nolan
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/dienanh24h/truy-cung-giet-tan-cuoc-tai-ngo-cua-hai-ong-hoang-phong-ve-xu-han-15966122262210.png"
+                                            alt="">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            Truy Cùng Giết Tận - Cuộc tái ngộ của hai 'ông hoàng phòng vé' xứ Hàn
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="News__button">
+                                <button class="btn">xem thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="Review">
+                        <div class="row News__tren">
+                            <div class="col-6">
+                                <img src="./image/tin_tuc/review/review-tan-tich-quy-am-relic-ba-the-he-va-moi-lien-ket-15965255784224.png"
+                                    alt="review">
+                                <a href="#">Review: Tàn Tích Quỷ Ám (Relic) - Ba thế hệ và mối liên kết</a>
+                                <p>
+                                    Điểm nhấn của phim kinh dị năm 2020 chính là Tàn Tích Quỷ Ám
+                                </p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>0</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img src="./image/tin_tuc/review/review-dinh-thu-oan-khuat-ghost-of-war-15965120886610.png"
+                                    alt="review">
+                                <a href="#">Review: Dinh Thự Oan Khuất (Ghost Of War)</a>
+                                <p>
+                                    Tuy là một bộ phim có chất lượng tốt, nhưng có vẻ Dinh Thự Oan Khuất vẫn chưa đủ để
+                                    đem khán giả trở lại phòng vé!
+                                </p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>0</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row News__duoi">
+                            <div class="col-4">
+                                <img src="./image/tin_tuc/review/blackkklansman-coc-nuoc-lanh-de-nguoi-my-thuc-tinh-15910862294165.png"
+                                    alt="review">
+                                <a href="#">‘BlacKkKlansman’ - cốc nước lạnh để người Mỹ thức tỉnh</a>
+                                <p>Tác phẩm nhận đề cử Phim truyện xuất sắc tại Oscar 2019 của đạo diễn Spike Lee là một
+                                    lát cắt nữa về nạn phân biệt chủng tộc - nỗi đau gây nhức nhối nước Mỹ cho tới tận
+                                    hôm nay.</p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>0</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img src="./image/tin_tuc/review/american-sniper-chinh-nghia-hay-phi-nghia-15905660338111.png"
+                                    alt="review">
+                                <a href="#">American Sniper - Chính nghĩa hay phi nghĩa?</a>
+                                <p>American Sniper khắc họa một tay súng bắn tỉa “huyền thoại” của Hải quân Mỹ với 4 lần
+                                    tham chiến ở Trung Đông. Câu chuyện phim chậm rãi đưa người xem qua từng thời khắc
+                                    khác nhau của Kyle, từ thửa nhỏ, thiếu niên, rồi gia nhập quân đội, rồi tham chiến.
+                                    Từng khoảnh khắc bắt đầu nhẹ nhàng...</p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>0</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/review/review-spider-man-into-the-spider-vesre-15886520889426.png"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            Review: Spider-Man: Into The Spider-Vesre
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/review/covid-19-la-ban-chinh-thuc-cua-mev-1-phim-contagion-2011-15843496198482.jpg"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            COVID-19 là bản chính thức của MEV-1 phim contagion (2011)
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/review/review-sieu-ve-si-so-vo-giai-cuu-tong-thong-chua-bao-gio-lay-loi-va-hai-huoc-den-the-15840925506832.jpg"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            [Review] Siêu Vệ Sĩ Sợ Vợ - Giải cứu Tổng thống chưa bao giờ lầy lội và hài
+                                            hước đến thế
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/review/review-bloodshot-mo-man-an-tuong-cho-vu-tru-sieu-anh-hung-valiant-15840731141389.jpg"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            [Review] Bloodshot - Mở màn ấn tượng cho Vũ trụ Siêu anh hùng Valiant
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="News__button">
+                                <button class="btn">xem thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="KhuyenMai">
+                        <div class="row News__tren">
+                            <div class="col-6">
+                                <img src="./image/tin_tuc/khuyenmai/bhd-59k-ve-ca-tuan-16088081864967.jpg"
+                                    alt="khuyến mãi">
+                                <a href="#">BHD 59K/VÉ CẢ TUẦN !!!</a>
+                                <p>
+                                    Tận hưởng Ưu Đãi lên đến 3 VÉ BHD Star mỗi tuần chỉ với giá 59k/vé khi mua vé trên
+                                    TIX hoặc Mục Vé Phim trên ZaloPay.
+                                </p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img src="./image/tin_tuc/khuyenmai/tix-1k-ve-ngai-chi-gia-ve-16045662877511.jpg"
+                                    alt="khuyến mãi">
+                                <a href="#">TIX 1K/VÉ NGẠI CHI GIÁ VÉ</a>
+                                <p>
+                                    Đồng giá 1k/vé cả tuần tất cả các rạp trên TIX + Nhận thêm 02 voucher thanh toán
+                                    ZaloPay thả ga
+                                </p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row News__duoi">
+                            <div class="col-4">
+                                <img src="./image/tin_tuc/khuyenmai/dong-gia-1k-ve-khi-mua-ve-qua-tix-16010092946804.png"
+                                    alt="review">
+                                <a href="#">ĐỒNG GIÁ 1K/VÉ KHI MUA VÉ QUA TIX</a>
+                                <p>ĐỒNG GIÁ 1K/VÉ KHI MUA VÉ QUA TIX
+                                    Hành trình tìm Ròm và Phúc chỉ với 1k cả tuần + nhận thêm 02 voucher khi đặt vé qua
+                                    TIX.</p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>4</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img src="./image/tin_tuc/khuyenmai/bhd-star-ve-chi-59-000d-ca-tuan-15937622264546.jpg"
+                                    alt="khuyen mai">
+                                <a href="#">BHD STAR VÉ CHỈ 59.000Đ CẢ TUẦN!</a>
+                                <p>Tận hưởng Ưu Đãi lên đến 3 VÉ BHD Star mỗi tuần chỉ với giá 59k/vé khi mua vé trên
+                                    TIX và thanh toán bằng ZaloPay hoặc Mục Vé Phim trên ZaloPay.</p>
+                                <div class="News__icon">
+                                    <div class="like">
+                                        <img src="./image/tin_tuc/like.png" alt="like_icon">
+                                        <span>0</span>
+                                    </div>
+                                    <div class="comment">
+                                        <img src="./image/tin_tuc/comment.png" alt="comment_icon">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/khuyenmai/beta-cineplex-tro-lai-voi-hang-loat-uu-dai-lon-15889408112010.png"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            Beta Cineplex trở lại với hàng loạt ưu đãi lớn
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/khuyenmai/123phim-thu-6-khong-den-toi-uu-dai-huy-diet-11k-ve-anh-trai-yeu-quai-15746757294099.jpg"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            [123Phim] Thứ 6 Không Đen Tối - Ưu đãi huỷ diệt 11k/vé Anh Trai Yêu Quái
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/khuyenmai/123phim-nhap-ma-psm30k-giam-ngay-30k-khi-dat-ve-phap-su-mu-ai-chet-gio-tay-15729439018211.jpg"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            [123Phim] NHẬP MÃ 'PSM30K' - Giảm ngay 30k khi đặt vé Pháp Sư Mù: Ai Chết
+                                            Giơ Tay
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="News__right__item d-flex">
+                                    <div class="chua__anh">
+                                        <img src="./image/tin_tuc/khuyenmai/mega-gs-mot-doa-hoa-thay-ngan-loi-yeu-15713106082164.jpg"
+                                            alt="review">
+                                    </div>
+                                    <a href="#">
+                                        <p>
+                                            [Mega GS] Một đoá hoa thay ngàn lời yêu
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="News__button">
+                                <button class="btn">xem thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="app">
+            <div class="row">
+                <div id="bg__image" class="col-12">
+                    <div class="maxWidth mx-auto">
+                        <div class="row">
+                            <div class="col-6 app__left">
+                                <h1>Ứng dụng tiện lợi dành cho
+                                    người yêu điện ảnh</h1>
+                                <br>
+                                <p>Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp và đổi quà hấp dẫn.
+                                </p>
+                                <br>
+                                <button class="btn btn-danger">App miễn phí - Tải về ngay!</button>
+                                <p id="textAppUnder">Tix có 2 phiên bản
+                                    <a href="#">iOS</a>
+                                    & <a href="#">Android</a>
+                                </p>
+                            </div>
+                            <div class="col-6 app__right">
+                                <img class="phone_img" src="./image/app/mobile.png" alt="">
+                                <div class="slick__list">
+                                    <div class="slick_slider">
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide1.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide2.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide3.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide4.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide5.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide6.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide7.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide8.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide9.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide10.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide11.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide12.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide13.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide14.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide15.jpg" alt="">
+                                        </div>
+                                        <div class="slick__img">
+                                            <img src="./image/app/slide16.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="maxWidth mx-auto">
+            <div class="footer__tren row">
+                <div class="footer__thongtin col-4">
+                    <h1 class="thongtin__tieude">TIX</h1>
+                    <div class="thongtin__content d-flex">
+                        <div class="col-6">
+                            <a href="#">FAQ</a>
+                            <a href="#">Brand Guidelines</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#">Thỏa thuận sử dụng</a>
+                            <a href="#">Chính sách bảo mật</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__doitac col-4">
+                    <h1 class="thongtin__tieude">đối tác</h1>
+                    <div class="row col-12">
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/cgv.png" alt=""
+                                style="background-color: #fff;">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/bhd.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/galaxycine.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/cinestar.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/404b8c4b80d77732e7426cdb7e24be20.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="row col-12">
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/megags.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/bt.jpg" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/dongdacinema.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/TOUCH.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/cnx.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="row col-12">
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/STARLIGHT.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/dcine.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/zalopay_icon.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/payoo.jpg" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/VCB.png" alt="">
+                        </a>
+                    </div>
+                    <div class="row col-12">
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/AGRIBANK.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/VIETTINBANK.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/IVB.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/123go.png" alt="">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img class="doitac__img" src="./image/footer/doi_tac/laban.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__mobile col-2">
+                    <h1 class="thongtin__tieude">mobile app</h1>
+                    <a href="#">
+                        <img class="" src="./image/footer/apple-logo.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./image/footer/android-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__social col-2">
+                    <h1 class="thongtin__tieude">social</h1>
+                    <a href="#">
+                        <img src="./image/footer/facebook-logo.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./image/footer/zalo-logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <hr class="footer__hr">
+            <div class="footer__duoi row">
+                <div class="col-1">
+                    <img src="./image/footer/zion-logo.jpg" alt="logo">
+                </div>
+                <div class="col-9">
+                    <span>TIX – SẢN PHẨM CỦA CÔNG TY CỔ PHẦN ZION</span>
+                    <span>
+                        Giấy chứng nhận đăng ký kinh doanh số: 0101659783,
+                        <br>
+                        đăng ký thay đổi lần thứ 30, ngày 22 tháng 01 năm 2020 do Sở kế hoạch và đầu tư Thành phố Hồ Chí
+                        Minh cấp.
+                    </span>
+                    <span>
+                        Số Điện Thoại (Hotline): 1900 545 4364
+                        <br>
+                        Email: <a href="mailto:support@tix.vn">support@tix.vn</a>
+                    </span>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="./image/footer/d1e6bd560daa9e20131ea8a0f62e87f8.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"
+        integrity="sha512-3fMsI1vtU2e/tVxZORSEeuMhXnT9By80xlmXlsOku7hNwZSHJjwcOBpmy+uu+fyWwGCLkMvdVbHkeoXdAzBv+w=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Slick -->
+
+    <script type="text/javascript" src="./JS/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slick_slider').slick({
+                dots: false,
+                autoplay: true,
+                arrows: false,
+                autoplaySpeed: 2000,
+                infinite: true,
+            });
+        });
+    </script>
+</body>
+
+</html>
